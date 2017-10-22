@@ -1,3 +1,5 @@
 #! /bin/bash
-sudo apt install -y ubuntu-make
-umake web firefox-dev
+
+sudo add-apt-repository -y ppa:mozillateam/firefox-next
+sudo apt-get update
+sudo apt-get install firefox
