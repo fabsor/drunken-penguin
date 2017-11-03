@@ -8,6 +8,10 @@
 ./parts/php.sh
 ./parts/nodejs.sh
 ./parts/python.sh
-./parts/shell.sh
 ./parts/vagrant.sh
 ./parts/leisure.sh
+./parts/docker.sh
+./parts/wp.sh
+./parts/drupal.sh
+# Shell needs to be last
+./parts/shell.sh
