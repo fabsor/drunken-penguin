@@ -22,7 +22,7 @@ sudo apt-get -y install redis-server
 # Virtualenvwrapper is necessary for virtually (hehe)
 # everything when you work with multiple python projects.
 # Let's shove it right in there.
-pip install virtualenv virtualenvwrapper
+sudo pip install virtualenv virtualenvwrapper
 
 if [ -f $SHELL_RC ]; then
     # Add our WORKON_HOME variable, if it's not already there.
@@ -39,4 +39,4 @@ fi
 # Let's create the stinking directory already.
 mkdir -p $VIRTUALENV_HOME
 
-pip install fabric ansible
+sudo pip install fabric ansible
