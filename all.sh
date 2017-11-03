@@ -13,5 +13,6 @@
 ./parts/docker.sh
 ./parts/wp.sh
 ./parts/drupal.sh
+./parts/beatify.sh
 # Shell needs to be last
 ./parts/shell.sh
