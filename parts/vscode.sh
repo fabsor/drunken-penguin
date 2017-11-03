@@ -2,4 +2,4 @@
 
 wget -O /tmp/vscode.deb https://go.microsoft.com/fwlink/?LinkID=760868
 
-dpkg -i /tmp/vscode.deb
+sudo dpkg -i /tmp/vscode.deb
