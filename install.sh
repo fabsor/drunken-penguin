@@ -1,8 +1,8 @@
 #!/bin/bash
 
-sudo apt-get install -y git
+apt-get install -y git
 git clone https://github.com/fabsor/drunken-penguin.git /tmp/drunken-penguin
 
 pushd /tmp/drunken-penguin;
-sudo ./all.sh
+./all.sh
 popd

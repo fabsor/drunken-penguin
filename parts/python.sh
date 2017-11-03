@@ -10,19 +10,19 @@ VIRTUALENV_HOME='~/.virtualenvs'
 # zsh. Change this to .bashrc if you're an old fucking dinosaur.
 SHELL_RC="$HOME/.zshrc"
 
-sudo apt-get update
+apt-get update
 
 # Lets start out with installing python3. Because, come on.
-sudo apt-get -y install python3 python python-pip python3-pip
+apt-get -y install python3 python python-pip python3-pip
 
 # My projects use redis for well, everything. so let's go ahead and get
 # get that as well.
-sudo apt-get -y install redis-server
+apt-get -y install redis-server
 
 # Virtualenvwrapper is necessary for virtually (hehe)
 # everything when you work with multiple python projects.
 # Let's shove it right in there.
-sudo pip install virtualenv virtualenvwrapper
+pip install virtualenv virtualenvwrapper
 
 if [ -f $SHELL_RC ]; then
     # Add our WORKON_HOME variable, if it's not already there.
@@ -39,4 +39,4 @@ fi
 # Let's create the stinking directory already.
 mkdir -p $VIRTUALENV_HOME
 
-sudo pip install fabric ansible
+pip install fabric ansible
