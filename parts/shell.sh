@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Install zsh
-apt-get install -y zsh
+sudo apt-get install -y zsh
 
 # Oh my zsh is what you have been dreaming about
 # in the shower while awkwardly touching yourself.

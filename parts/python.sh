@@ -10,14 +10,14 @@ VIRTUALENV_HOME='~/.virtualenvs'
 # zsh. Change this to .bashrc if you're an old fucking dinosaur.
 SHELL_RC="$HOME/.zshrc"
 
-apt-get update
+sudo apt-get update
 
 # Lets start out with installing python3. Because, come on.
-apt-get -y install python3 python python-pip python3-pip
+sudo apt-get -y install python3 python python-pip python3-pip
 
 # My projects use redis for well, everything. so let's go ahead and get
 # get that as well.
-apt-get -y install redis-server
+sudo apt-get -y install redis-server
 
 # Virtualenvwrapper is necessary for virtually (hehe)
 # everything when you work with multiple python projects.
