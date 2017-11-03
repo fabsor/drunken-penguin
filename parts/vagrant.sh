@@ -1,6 +1,6 @@
 #! /bin/bash
 set -e
-apt-get install -f gdebi
+apt-get install -y gdebi
 if [ ! -f /usr/bin/vagrant ]; then
     wget -O /tmp/vagrant.deb https://releases.hashicorp.com/vagrant/2.0.0/vagrant_2.0.0_x86_64.deb
     gdebi -y /tmp/vagrant.deb
