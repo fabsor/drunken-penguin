@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt-get install -y curl git tmux
+
+sudo pacman -Sy --noconfirm curl git tmux wget
