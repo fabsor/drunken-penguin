@@ -11,3 +11,8 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 sudo apt-get update
 sudo apt-get install -y docker-ce
+
+sudo apt-get -y install python3-pip
+sudo pip3 install docker-compose
+
+sudo adduser $USER docker
